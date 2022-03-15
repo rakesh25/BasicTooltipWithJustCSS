@@ -56,7 +56,7 @@ body {
 }
 
 .tooltip-target[position="left"]::before {
-  left: calc(-var(--border-width));
+  left: calc(var(--border-width) * -1);
   border-left-color: purple;
 }
 
